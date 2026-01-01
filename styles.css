@@ -1,0 +1,206 @@
+/* ----------------------------------------------------- */
+/* GLOBAL SETTINGS */
+/* ----------------------------------------------------- */
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #ffffff;
+    color: #333;
+}
+
+.section {
+    padding: 80px 12%;
+}
+
+.alt-section {
+    background: #f7f4ff;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #4a3f7a;
+}
+
+/* ----------------------------------------------------- */
+/* NAVBAR */
+/* ----------------------------------------------------- */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    padding: 15px 5%;
+    border-bottom: 1px solid #eee;
+    z-index: 1000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.nav-links a:hover {
+    color: #6a46c9;
+}
+
+/* ----------------------------------------------------- */
+/* HOME PAGE */
+/* ----------------------------------------------------- */
+
+.home-section {
+    padding-top: 160px;
+}
+
+.home-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.home-text {
+    flex: 1;
+    text-align: left;
+}
+
+.name-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 22px;
+    color: #5b4fbf;
+    margin-bottom: 20px;
+}
+
+.description {
+    margin-top: 10px;
+    line-height: 1.6;
+    font-size: 17px;
+    max-width: 600px;
+}
+
+.education-row {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 12px;
+}
+
+.school-logo {
+    width: 50px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.education {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.buttons {
+    margin-top: 25px;
+}
+
+.btn {
+    padding: 10px 18px;
+    background: #6a46c9;
+    color: white;
+    border-radius: 8px;
+    margin-right: 12px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #5938b2;
+}
+
+.home-photo img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #eee;
+}
+
+/* ----------------------------------------------------- */
+/* GENERIC CARD STYLING */
+/* ----------------------------------------------------- */
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.07);
+    border: 1px solid #e8e6fa;
+}
+
+.card h2 {
+    font-size: 20px;
+    color: #4a3f7a;
+    margin-top: 0;
+}
+
+/* ----------------------------------------------------- */
+/* EXPERIENCE PAGE */
+/* ----------------------------------------------------- */
+
+.page-heading {
+    font-size: 42px;
+    font-weight: 700;
+    color: #4a3f7a;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.role-title {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.exp-list {
+    padding-left: 18px;
+    line-height: 1.6;
+}
+
+.exp-list li {
+    margin-bottom: 8px;
+}
+
+/* ----------------------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------------------- */
+
+.footer {
+    text-align: center;
+    padding: 40px 0;
+    background: #f0edf9;
+    margin-top: 40px;
+}
